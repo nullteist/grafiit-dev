@@ -16,29 +16,5 @@
     
 "items": [
     
-        {
-            "id": "https://grafiit.dev/2022/04/26/firstpost",
-            "title": "First post",
-            "summary": "This is a description",
-            "content_text": "This is a test post.",
-            "content_html": "<p>This is a test post.</p>",
-            "url": "https://grafiit.dev/2022/04/26/firstpost",
-            
-            
-            
-            
-            
-            "date_published": "2022-04-26T00:00:00+03:00",
-            "date_modified": "2022-04-26T00:00:00+03:00",
-            
-                "author":  {
-                "name": "nullteist",
-                "url": null,
-                "avatar": null
-                }
-                
-            
-        }
-    
     ]
 }

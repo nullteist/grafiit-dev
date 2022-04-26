@@ -4,22 +4,13 @@
  <title>grafiit.dev</title>
  <link href="https://grafiit.dev/atom.xml" rel="self"/>
  <link href="https://grafiit.dev/"/>
- <updated>2022-04-26T19:30:30+03:00</updated>
+ <updated>2022-04-26T20:13:56+03:00</updated>
  <id>https://grafiit.dev</id>
  <author>
    <name>nullteist</name>
    <email>contact@grafiit.dev</email>
  </author>
 
- 
- <entry>
-   <title>First post</title>
-   <link href="https://grafiit.dev/2022/04/26/firstpost"/>
-   <updated>2022-04-26T00:00:00+03:00</updated>
-   <id>https://grafiit.dev/2022/04/26/firstpost</id>
-   <content type="html">&lt;p&gt;This is a test post.&lt;/p&gt;
-</content>
- </entry>
  
 
 </feed>
