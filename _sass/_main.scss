@@ -101,14 +101,15 @@ html[data-theme="dark"] {
 	--text-font: Play;
 	--source-code-font: Source Code Pro;
 	--very-light-text-color: #EEE;
-	--light-text-color: #c4bbf0;
+	--light-text-color: #EEE;
 	--medium-text-color: #52057b;
 	--main-text-color: #EAEAEA;
-	--highlight-text-color: #6cb4a0;
+	--highlight-text-color: #28DF99;
 	--dark-text-color: rgb(36, 38, 42);
-	--link-color: rgb(255, 89, 125);
+	--link-color: #28DF99;
 	--code-bg-color: rgb(36, 38, 42);
-	background-color: rgb(19, 20, 24);
+	//background-color: rgb(19, 20, 24);
+  background-color: rgb(20,20,30);
 
 	#theme-toggle div {
 		position: relative;
@@ -242,7 +243,7 @@ section {
 }
 
 section {
-	margin-top: 5.5rem;
+	margin-top: 5rem;
 }
 
 blockquote {
@@ -438,11 +439,11 @@ figcaption {
 }
 
 .bio {
-	margin-bottom: 5rem;
+	margin-bottom: 2rem;
 }
 
 ::selection {
-background-color: #fffba0;
+background-color: #FAFAFA;
 color: #333;
 }
 
@@ -487,6 +488,7 @@ color: #333;
   li {
     text-align: center;
   }
+  list-style: none;
 }
 
 #search-results li::before {
@@ -792,4 +794,9 @@ $link-color: var(--link-color);
     z-index: 15;
     
   }
+}
+
+
+#Blog {
+  margin-top: 0;
 }

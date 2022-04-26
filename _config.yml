@@ -1,41 +1,44 @@
-site: Gesko
-title: Gesko
-greetings: Hi 👋
+site: grafiit.dev
+title: grafiit.dev
+greetings: Welcome 👋
 description: >-
-  just a minimalist, personal blog
+  My online name is nullteist. I live in Estonia and I am a programmer and a tech enthusiast. My tech-related interests are web development, programming and cryptocurrencies. My other interests are reading, anime and rhythm games.
+  <br><br>
+  Twitter: <a href="https://twitter.com/nullteist">@nullteist</a><br>
+  Discord: aimless#9928<br>
+  Github: <a href="https://github.com/nullteist">nullteist</a><br>
+  Email: contact@grafiit.dev
 lang: en-US
-timezone:  Europe/Rome
-repo: https://github.com/p0wex/Gesko # site repo [optional]
+timezone: Europe/Tallinn
+repo: https://github.com/nullteist/grafiit-dev # site repo [optional]
 data-theme: dark # default theme "dark" | "light"
-discus-identifier: powex # replace with your disqus shortname
+discus-identifier: nullteist # replace with your disqus shortname
 
 author:
-  name: gesko
-  bio: just a minimalist, personal blog
-  userpicture: 
-  username: # general username
-  github: # github username
-  twitter: # twitter username
-  email: your-email@email.com # email adress
+  name: nullteist
+  bio: this is a test sentence.
+  userpicture: https://avatars.githubusercontent.com/u/76536876?v=4
+  username: nullteist # general username
+  github: nullteist # github username
+  twitter: nullteist # twitter username
+  email: contact@grafiit.dev # email adress
 
 # Font Settings
 googlewebfonts: family=Play:wght@400;700&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,500;1,600;1,700;1,900
 
 # URL settings
-url: "https://p0wex.github.io" # Domain Name of host. [username].github.io for github pages
-baseurl: "/Gesko" # sub folder for jekyll site. only if jekyll site not in root of host. leave blank if not wishd. always add / in front.
-permalink: pretty
+#url: 'https://p0wex.github.io' # Domain Name of host. [username].github.io for github pages
+#baseurl: '/Gesko' # sub folder for jekyll site. only if jekyll site not in root of host. leave blank if not wishd. always add / in front.
+#permalink: pretty
 
 # local
-# url: "http://localhost:4000" # 
-# baseurl: "" # 
-
+url: 'http://localhost:4000' #
+baseurl: '' #
 
 markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-
 
 exclude:
   - .jekyll-cache
@@ -45,10 +48,10 @@ exclude:
   - LICENSE.md
   - README.md
   - CONTRIBUTING.md
-  
+
 compress_html:
   clippings: all
-  comments: ["<!-- ", " -->"]
+  comments: ['<!-- ', ' -->']
 
 sass:
   sass_dir: _sass
@@ -66,28 +69,23 @@ collections:
   posts:
     output: true
     permalink: /:year/:month/:day/:slug
-  
+
 defaults:
-  -
-    scope:
-      path: ""
+  - scope:
+      path: ''
     values:
-      layout: "default"
-  -
-    scope:
-      path: ""
-      type: "pages"
+      layout: 'default'
+  - scope:
+      path: ''
+      type: 'pages'
     values:
-      layout: "page"
-  -
-    scope:
-      path: ""
-      type: "posts"
+      layout: 'page'
+  - scope:
+      path: ''
+      type: 'posts'
     values:
-      layout: "post"
+      layout: 'post'
 
 relative_links:
-  enabled:     true
+  enabled: true
   collections: false
-
-
